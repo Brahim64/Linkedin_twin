@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+.info{
+    position: relative;
+    top: 3vh;
+    height: 65vh;
+    border: 0.5vh solid black;
+    border-radius: 1.5vh;
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.background-photo{
+    height: 50%;
+    border: 0.5vh solid black;
+}
+.profile-photo{
+    position: relative;
+    border: 0.5vh solid black;
+    border-radius: 10vw !important;
+    width: 15vw;
+    height: 15vw;
+    left: 5vw;
+    top: -20vh;
+}
+.details{
+    position: relative;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}

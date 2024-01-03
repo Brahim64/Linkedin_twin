@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(35, 35, 35);
+    position: relative;
+    z-index: 1;
+}
+nav{
+    position: relative;
+    top: 7.5vh;
+    left: 3.5vw;
+    width: 30vw;
+}
+.logoTitle{
+    font-family: 'Work Sans',sans-serif;
+    font-size: 5vh;
+    color: white;
+    margin: 1vw;
+    border-left: .38vw solid white;
+    padding-left: .6vw;
+}
+
+nav a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.fa-brands{
+    font-size: 7.5vh;
+}
+
+.logo{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    
+}
+.logo div :nth-child(1){
+    position: relative;
+    left: .8vw;
+}
+
+
+
+.background{
+    position: absolute;
+    width: 45vw;
+    height: 75vh;
+    transform: rotate(0deg);
+    border-bottom-left-radius: 3vw;
+    top:-1vh;
+    right: 3.2vw;
+}
+.background img{
+    position: absolute;
+    width: 45vw;
+    height: 75vh;
+    border-bottom-left-radius: 3vw;
+    top: 0vh;
+    right: -3.6vw;
+}
+.shadow{
+    position: absolute;
+    background-color: rgb(22,68,87);
+    width: 45vw;
+    height: 75vh;
+    top: 0.7vh;
+    right: -1.5vw;
+    transform: rotate(6deg);
+    border-bottom-right-radius: 3vw;
+    border-bottom-left-radius: 3vw;
+}
+.bubble-one{
+    position: absolute;
+    width: 4.5vw;
+    height: 7.7vh;
+    background-color: rgba(144, 142, 142, 0.3);
+    z-index: 10;
+    left: -1vw;
+    top: 42vh;
+    border-radius: 50%;
+}
+.bubble-two{
+    position: absolute;
+    width: 12vw;
+    height: 5.5vh;
+    background-color: rgba(144, 142, 142, 0.3);
+    z-index: 10;
+    left: 20vw;
+    top: 73vh;
+    border-radius: 2.5vw;
+}
+.container{
+    position: absolute;
+    width: 55vw;
+    height: 40vh;
+    top: 25vh;
+    display: flex;
+    justify-content: space-between;
+}
+.container div {
+    margin-bottom: 1.7vh;
+}
+.container div :nth-child(1){
+    color: white;
+    font-size: 4.5vw;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 900;
+    
+}
+.container div :nth-child(2){
+    color: white;
+    font-size: 4.6vw;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 900;
+}
+.container div :nth-child(3){
+    color: white;
+    font-size: 4.6vw;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 900;
+}
+.container div :nth-child(2) span{
+    border-radius: 4vh;
+    border: red 0.35vw solid ;
+    padding:0.2vh 2vh 0.2vh 2vh;
+}
+.buttons a{
+    border-radius: 4vh;
+    border: rgb(255, 255, 255) 0.25vw solid ;
+    padding:0.5vh 3vh 0.5vh 3vh;  
+    background-color: rgb(35, 35, 35);
+    font-size: 4vh !important;
+    margin-right: 1vw;
+    text-decoration: none;
+}
+.buttons{
+    margin-top: 15vh;
+}
