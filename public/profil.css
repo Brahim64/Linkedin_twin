@@ -18,17 +18,131 @@
 .profile-photo{
     position: relative;
     border: 0.5vh solid black;
-    border-radius: 10vw !important;
-    width: 15vw;
-    height: 15vw;
+    border-radius: 50%;
+    width: 20%;
+    height: 50%;
     left: 5vw;
     top: -20vh;
 }
 .details{
     position: relative;
     width: 90%;
+    top: -7vw;
     display: flex;
     justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Work Sans',sans-serif;
+    font-size: 1.2vw;
+}
+.details .left .name{
+    margin-bottom: 1.5vh;
+    padding-bottom: 1.5vh;
+    border-bottom: 1vw solid grey ;
+    border-bottom-width: .2vw;
+    
+}
+.details .right .school{
+    margin-bottom: 1.5vh;
+    padding-bottom: 1.5vh;
+    border-bottom: 1vw solid grey ;
+    border-bottom-width: .2vw;
+    display: flex;
+    justify-content: center;
+}
+.education{
+    position: relative;
+    top: 20vh;
+    height: 30vh;
+    border: 0.5vh solid black;
+    border-radius: 1.5vh;
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8vw;
+}
+.education .title{
+    position: relative;
+    width: 90%;
+    height: 10vh;
+    font-family: 'Work Sans',sans-serif;
+    font-weight: 900;
+    font-size: 4vh;
+    display: flex;
+    left: 1.5vw;
+    align-items: center;
+    border-bottom: 0.1vw black solid;
+    margin-bottom: 1vh;
+    display: flex;
+    justify-content: space-between;
+}
+i{
+    border: 0.1vw black solid;
+    border-radius: 0.1vh;
+    cursor: pointer;
+    padding: 0.1vh;
+}
+.degree{
+    position: relative;
+    width: 90%;
+    height: 15vh;
+    left: 1.7vw;
+}
+.university{
+    height: 5vh;
+    font-size: 3vh;
+    font-family: 'Work Sans',sans-serif;
+    margin-bottom: 1vh;
+}
+.domain{
+    height: 5vh;
+    font-size: 2vh;
+    font-family: 'Work Sans',sans-serif;
+}
+.year{
+    height: 5vh;
+    font-size: 2vh;
+    font-family: 'Work Sans',sans-serif;
+}
+.certif{
+    position: relative;
+    top: 20vh;
+    height: 30vh;
+    border: 0.5vh solid black;
+    border-radius: 1.5vh;
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.certif .title{
+    position: relative;
+    width: 90%;
+    height: 10vh;
+    font-family: 'Work Sans',sans-serif;
+    font-weight: 900;
+    font-size: 4vh;
+    display: flex;
+    left: 1.5vw;
+    align-items: center;
+    border-bottom: 0.1vw black solid;
+    margin-bottom: 1vh;
+    display: flex;
+    justify-content: space-between;
+}
+.certif-instance{
+    position: relative;
+    width: 90%;
+    height: 15vh;
+    left: 1.7vw;
+}
+.certif-name{
+    height: 5vh;
+    font-size: 3vh;
+    font-family: 'Work Sans',sans-serif;
+    margin-bottom: 1vh;
+}
+.year{
+    height: 5vh;
+    font-size: 2vh;
+    font-family: 'Work Sans',sans-serif;
 }
