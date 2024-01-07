@@ -129,4 +129,25 @@ button{
 .check input{
     margin-right: 2vw ;
 }
-
+.created{
+    position: relative;
+    background-color: rgb(123, 241, 202);
+    top: 6.5vh;
+    width: 20vw;
+    left: 4vw;
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.error{
+    position: relative;
+    background-color: #e95252;
+    top: 6.5vh;
+    width: 20vw;
+    left: 4vw;
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -22,12 +22,17 @@
             <i class="fa-brands fa-linkedin fa-2xl second" ></i>
             <div class="logoTitle1">Linkedin</div>
         </a>
+        <% if (typeof error !== 'undefined') { %>
+            <div class="error"><%= error %></div>
+        <% } %>
         <div class="signIn">
             <div class="text">Create New Account</div>
-            <form action="">
-                <input type="text" name="username" id="" class="in1" placeholder="username"><br>
+            <form action="/login" method="post">
+                <input type="text" name="username" id="" class="in1" placeholder="username" required><br>
                 <input type="text" name="password" id="" class="in2" placeholder="password"><br>
                 <input type="text" name="email" id="" class="in3" placeholder="email"><br>
+                <input type="text" name="univ" id="" class="in4" placeholder="université"><br>
+                <input type="text" name="proffesion" id="" class="in5" placeholder="profession"><br>
                 <button type="submit">Sign Up</button>
             </form>
             

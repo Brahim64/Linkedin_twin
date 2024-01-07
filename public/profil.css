@@ -13,16 +13,19 @@
 }
 .background-photo{
     height: 50%;
-    border: 0.5vh solid black;
+    border: 0.3vh solid black;
 }
 .profile-photo{
     position: relative;
-    border: 0.5vh solid black;
+    border: 0.3vh solid black;
     border-radius: 50%;
     width: 20%;
     height: 50%;
     left: 5vw;
     top: -20vh;
+    background-image: url("/profile.jpg");
+    background-position: center;
+
 }
 .details{
     position: relative;
